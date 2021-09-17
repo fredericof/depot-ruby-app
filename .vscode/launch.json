@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Rails server",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/bin/rails",
+            "args": [
+                "server"
+            ],
+            "showDebuggerOutput": true,
+            "env": {
+                "PATH": "/home/frederico/.asdf/shims:/home/frederico/.asdf/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/home/frederico/bin:/home/frederico/.dotnet/tools:/home/frederico/.fzf/bin",
+            }
+        }
+    ]
+}
