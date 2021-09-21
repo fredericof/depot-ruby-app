@@ -50,6 +50,9 @@ header.main {
     }
 
     nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         padding-bottom: 1em;
         background: #141;
         text-align: center; // mobile has centered nav
@@ -89,6 +92,11 @@ header.main {
                     text-decoration: none;
                 }
             }
+        }
+
+        .side_botton_time {
+            display: flex;
+            color: white;
         }
     }
 
